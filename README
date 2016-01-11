@@ -1,0 +1,8 @@
+This auto-names video files from any site and downloads them. It was built with Coursera in mind,
+where some class's videos download with the name `index.mp4` instead of matching the title of the
+video to which they are attached. Manually naming them is very annoying.
+
+1) Run the server: server.js
+2) Run `in-browser-code.js` in Chrome dev tools. This code should parse the section and name of the video from the site, and hit the endpoint provided by server.js.
+
+This code is subject to change, depending on the version of JS code Coursera is running.
